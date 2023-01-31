@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 1080px;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+.navlink {
+  display: block;
+  padding: 20px;
+  height: 100%;
+  text-align: center;
+}
